@@ -1,1 +1,26 @@
-# real-time-face-recognition
+# Real time face recognition
+ 
+## Packages needed
+  1. opencv
+  2. numpy
+  
+ 
+## There are three steps for face recognition:
+  1. Collecting face data (your face pictures) and labels and save to dataset folder. (code 1)
+  2. Input face data and labels into model to train a recognition model. (code 2)
+  3. Open up your webcam to start real time face recognition. (code 3)
+  
+## Instructions:
+  1. Download this repository as zip file and unzip it to a folder.
+  2. Now for train the model we required data to identify person.
+  3. Edit the "1_create_data.py" with data set save path and Person name(for first person, second person, follow the same procedure for multiple person identify.).
+  4. It will create folder with name and capture face of that person from webcam.
+  5. Run the second code, just wait several seconds to train the model.
+  6. Run the third code, it will open your camera and start real time face recognition.
+
+# How It's Work
+
+![](FaceRecogBlock.png)
+
+# Output Result
+![](Real%20Time%20Face%20recog.jpg)
