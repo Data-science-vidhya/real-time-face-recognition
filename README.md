@@ -23,4 +23,4 @@
 ![](FaceRecogBlock.png)
 
 # Output Result
-![](Real%20Time%20Face%20recog.jpg)
+![](capture.jpg)
